@@ -3,7 +3,7 @@
 
 ## Installation
 
-### step1:-clone the repo 
+### step1:- clone the repo 
  ```$ git clone https://github.com/Peaky001/URl_shortner.git```
 
  ### step2:- install all dependencies
