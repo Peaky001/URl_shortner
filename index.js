@@ -19,7 +19,7 @@ app.set("views", path.resolve("./views"));
 
 const PORT = 8001;
 
-connectToMongoDB("mongodb+srv://shrey:2002@atlascluster.nwlhxan.mongodb.net/urlshortner").then(() => console.log("connect to mongoDB"));
+connectToMongoDB("PUT your mongoDB-Atlas connection link here").then(() => console.log("connect to mongoDB"));
 app.use('/url',restrictToLoggedinUserOnly,urlRoute); 
 app.use('/',checkAuth,staticRouter);
 app.use('/user',userRoute);
